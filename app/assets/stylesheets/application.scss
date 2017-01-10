@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+ $navbar-default-bg: #1A535C;
+ @import 'bootswatch/cerulean/variables';
+ @import 'bootstrap-sprockets';
+ @import 'bootstrap';
+ @import 'bootswatch/cerulean/bootswatch';
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.jumbotron {
+  background-image: asset-url('lake.jpg');
+  background-size: cover;
+  height: 800px;
+}
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  boarder-top: 1px solid #003459;
+}
+footer a:hover {
+  color: #FF6B6B;
+}
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
