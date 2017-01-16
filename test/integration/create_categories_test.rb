@@ -8,7 +8,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 
   test "get new category form and create category" do
     sign_in_as(@user, "password")
-    #got to new category path
+    #go to new category path
     get new_category_path
     #get new form
     assert_template 'categories/new'
